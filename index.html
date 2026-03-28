@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureSearch | Private & Encrypted Search Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Logo with Privacy Theme -->
+        <div class="logo">
+            <div class="shield-icon">🛡️</div>
+            <h1>Secure<span>Search</span></h1>
+            <p class="tagline">Your Privacy Matters</p>
+        </div>
+
+        <!-- Security Badge -->
+        <div class="security-badge">
+            <span>🔒 100% Encrypted</span>
+            <span>🛡️ No Tracking</span>
+            <span>✨ Private Search</span>
+        </div>
+
+        <!-- Encryption Message -->
+        <div class="encryption-message">
+            <p>🔐 <strong>Everything you search is encrypted and secure</strong> — your data stays private, we don't track or store your searches.</p>
+        </div>
+
+        <!-- Search Box -->
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search privately..." autocomplete="off">
+            <button id="searchBtn">🔍 Search</button>
+        </div>
+
+        <!-- Search Engine Options -->
+        <div class="search-options">
+            <button class="option-btn active" data-engine="google">🌐 Google</button>
+            <button class="option-btn" data-engine="brave">🛡️ Brave</button>
+            <button class="option-btn" data-engine="duckduckgo">🦆 DuckDuckGo</button>
+        </div>
+
+        <!-- Search Results -->
+        <div id="results" class="results"></div>
+
+        <!-- Loading State -->
+        <div id="loading" class="loading" style="display: none;">🔍 Searching securely...</div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2026 RTLS — All rights reserved.</p>
+            <p class="privacy-footer">🔒 Your privacy is our priority. No logs, no tracking, complete encryption.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
